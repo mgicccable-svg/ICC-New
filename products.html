@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ICC Cable Corp. - Products</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background-color: #000;
+                color: #fff;
+                line-height: 1.6;
+            }
+            
+            
+            .logo {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px 50px;
+                z-index: 1000;
+            }
+
+            .navbar {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px 50px;
+                z-index: 1000;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            }
+
+            .nav-links {
+                display: flex;
+                list-style: none;
+            }
+
+            .nav-links li {
+                margin-left: 30px;
+            }
+
+            .nav-links a {
+                color: #fff;
+                text-decoration: none;
+                font-size: 18px;
+                font-weight: 600;
+                transition: color 0.3s ease;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="navbar">
+            <div class="logo">
+                <img src="images/icc-logo.png" alt="ICC Cable Corp. Logo" height="50">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </header>
+
+        <main class="main-content">
+            <section class="products-section">
+                <h1>Our Products</h1>
+                <p>Explore our wide range of high-quality cables and wires designed for various applications.</p>
+                <!-- Product listings would go here -->
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2024 ICC Cable Corp. All rights reserved.</p>
+        </footer>
+</html>
